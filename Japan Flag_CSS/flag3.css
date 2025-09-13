@@ -1,0 +1,44 @@
+h1{
+    background-color: brown;
+    text-align: center;
+}
+
+#Rect_first{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+    left: 40%;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.first,.third{
+    height: 85px;
+    width: 85px;
+}
+
+.third{
+    position: absolute;
+    bottom: 0px;
+}
+
+.second,.fourth{
+    height: 85px;
+    width: 175px;
+    position: absolute;
+}
+
+.second{
+    top: 0px;
+    right: 0px;
+}
+
+.fourth{
+    bottom: 0px;
+    right: 0px;
+}
+ 
