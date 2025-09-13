@@ -1,0 +1,29 @@
+#Container{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color: red;
+}
+
+.second{
+    background-color: greenyellow;
+}
+
+.third{
+    background-color: brown;
+}
+
+.fourth{
+    background-color: aqua;
+}
