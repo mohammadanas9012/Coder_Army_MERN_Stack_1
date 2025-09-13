@@ -1,0 +1,31 @@
+h1{
+    background-color: pink;
+    text-align: center;
+}
+
+#rect{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+    position: relative;
+    left: 30%;
+    right: 50%;
+}
+
+#beech{
+    height: 150px;
+    width: 600px;
+    background-color: blue;
+    position: relative;
+    top: 125px;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 25px;
+}

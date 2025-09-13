@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+
+#rect{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+
+#circle{
+    height: 30%;
+    width: 30%;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   
+}
