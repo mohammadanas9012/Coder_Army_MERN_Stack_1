@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    /* box-shadow: 10px 10px 5px 10px goldenrod; */
+    /* box-shadow: off-setX  off-set-Y  blur_radius  spread-radius  color ; */
+    /* box-shadow: insert 10px 10px 5px 10px goldenrod; */
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 10px red;
+}
