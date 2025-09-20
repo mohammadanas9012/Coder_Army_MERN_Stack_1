@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    perspective: 800px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    /* transform: translatey(-100px); */
+    /* transform: translate(200px,100px); */
+    /* transform: rotate(30deg); */
+    /* transform: skewY(30deg); */
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* transition: all 2s ease-in 2s;*/
+    /* transition: all 3s; */
+    animation-name: moving;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+
+ /* .box:hover{
+    /* background-color: purple;
+    height: 100px;
+    width: 300px; */
+    /* transform: scaleY(2); */
+    /* transform:translate(100px,200px) ; */
+    /* transform: translateY(200px);*/
+    /* transform: rotateX(90deg); */
+
+
+ @keyframes moving {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+
+ }   
+
